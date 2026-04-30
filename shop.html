@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMOROUS | Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GLAMOROUS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collection.html">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="d-flex gap-3"><a href="#"><i class="bi bi-bag fs-5"></i></a></div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <aside class="col-lg-3 order-2 order-lg-1 mb-4">
+                <div class="card border-0 bg-light p-3 mb-4">
+                    <h5 class="mb-3">Categories</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none d-block py-1">Dresses</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none d-block py-1">Tops</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none d-block py-1">Bottoms</a></li>
+                    </ul>
+                </div>
+                <div class="card border-0 bg-light p-3">
+                    <h5 class="mb-3">Price</h5>
+                    <input type="range" class="form-range" min="0" max="500">
+                    <div class="d-flex justify-content-between"><small>$0</small><small>$500+</small></div>
+                </div>
+            </aside>
+
+            <!-- Products Grid -->
+            <div class="col-lg-9 order-1 order-lg-2">
+                <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                    <h2>All Products</h2>
+                    <select class="form-select w-auto"><option>Sort by</option></select>
+                </div>
+                
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop1.jpg" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Cotton Wrap</h5>
+                                <p class="fw-bold">$75</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop2.webp" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Satin Blouse</h5>
+                                <p class="fw-bold">$55</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop3.avif" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Denim Jacket</h5>
+                                <p class="fw-bold">$95</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop4.webp" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Summer Dress</h5>
+                                <p class="fw-bold">$65</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Product 5 -->
+                     <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop5.jpg" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Skirt</h5>
+                                <p class="fw-bold">$49</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Product 6 -->
+                     <div class="col-6 col-md-4">
+                        <div class="card product-card h-100">
+                            <img src="Assets/Images/Fashion/shop6.webp" class="card-img-top" alt="Product">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-6">Trench Coat</h5>
+                                <p class="fw-bold">$150</p>
+                                <button class="btn btn-dark btn-sm w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <h3 class="mb-3">Glamorous</h3>
+            <p class="small text-secondary">&copy; 2026 Glamorous Fashion.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
